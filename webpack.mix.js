@@ -4,6 +4,8 @@ const path = require('path')
 // NOTE: Don't remove this, Because it's the default public folder path on AdonisJs
 mix.setPublicPath('public')
 
+mix.disableNotifications()
+
 mix
   .js('resources/vue/main.js', path.resolve(__dirname, 'public/js'))
   .webpackConfig({
@@ -26,4 +28,4 @@ mix
   .options({
     processCssUrls: false,
   })
-  .vue() // Magic here!!
+  .vue()
