@@ -1,0 +1,12 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+.env
+tmp
+mix-manifest.json
+hot
+public/js/*
+public/css/*
+.history
